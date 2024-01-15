@@ -1,8 +1,9 @@
 ---
-layout: category
-title: Algorithm
-permalink: /categories/algorithm/
-date: 2024-01-15 22:36 +0800
+layout: post
+title: Testing MathJax
+tags: mathjax
+math: true
+date: 2020-10-02 15:32 +0800
 ---
 
 ### 풀이법 :

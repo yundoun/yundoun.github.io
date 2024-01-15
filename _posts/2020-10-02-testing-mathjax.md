@@ -1,8 +1,7 @@
 ---
-layout: post
-title: Testing MathJax
-tags: algorithm
-math: true
+layout: category
+title: Algorithm
+permalink: /categories/algorithm/
 date: 2024-01-15 22:36 +0800
 ---
 

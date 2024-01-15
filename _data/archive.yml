@@ -4,6 +4,9 @@
 - type: categories
   title: Categories
   url: /categories/
+  subfolders:
+    - title: Algorithm
+      url: /categories/algorithm/
 - type: tags
   title: Tags
   url: /tags/

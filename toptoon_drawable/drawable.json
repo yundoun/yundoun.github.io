@@ -1,5 +1,5 @@
 {
-  "webtoons": [
+  "tab": [
     {
       "title": "마왕의 귀환",
       "author": "모름",
@@ -11,7 +11,7 @@
       "is_exclusive": true,
       "becomes_free_after_some_time": false,
       "recently_updated": true,
-      "image_url": "toptoon_drawable/tab/tab_realTime/tab_realTime_1.webp"
+      "image_url": "toptoon_drawable/tab/tab_1.webp"
     },
     {
       "title": "도시정벌",
@@ -24,7 +24,7 @@
       "is_exclusive": false,
       "becomes_free_after_some_time": true,
       "recently_updated": false,
-      "image_url": "toptoon_drawable/tab/tab_realTime/tab_realTime_2.webp"
+      "image_url": "toptoon_drawable/tab/tab_2.webp"
     },
     {
       "title": "이세계 요리방랑",
@@ -37,7 +37,7 @@
       "is_exclusive": true,
       "becomes_free_after_some_time": false,
       "recently_updated": true,
-      "image_url": "toptoon_drawable/tab/tab_realTime/tab_realTime_3.webp"
+      "image_url": "toptoon_drawable/tab/tab_3.webp"
     },
     {
       "title": "귀환자의 마법은 특별해야 합니다",
@@ -50,7 +50,7 @@
       "is_exclusive": false,
       "becomes_free_after_some_time": true,
       "recently_updated": false,
-      "image_url": "toptoon_drawable/tab/tab_realTime/tab_realTime_4.webp"
+      "image_url": "toptoon_drawable/tab/tab_4.webp"
     },
     {
       "title": "나 혼자만 레벨업",
@@ -63,7 +63,7 @@
       "is_exclusive": true,
       "becomes_free_after_some_time": false,
       "recently_updated": true,
-      "image_url": "toptoon_drawable/tab/tab_realTime/tab_realTime_5.webp"
+      "image_url": "toptoon_drawable/tab/tab_5.webp"
     },
     {
       "title": "심해수",
@@ -76,7 +76,7 @@
       "is_exclusive": false,
       "becomes_free_after_some_time": true,
       "recently_updated": true,
-      "image_url": "toptoon_drawable/tab/tab_realTime/tab_realTime_6.webp"
+      "image_url": "toptoon_drawable/tab/tab_6.webp"
     },
     {
       "title": "정령왕 엘퀴네스",
@@ -89,7 +89,7 @@
       "is_exclusive": true,
       "becomes_free_after_some_time": false,
       "recently_updated": false,
-      "image_url": ""
+      "image_url": "toptoon_drawable/tab/tab_7.webp"
     },
     {
       "title": "영웅의 군단",
@@ -102,7 +102,7 @@
       "is_exclusive": false,
       "becomes_free_after_some_time": true,
       "recently_updated": true,
-      "image_url": ""
+      "image_url": "toptoon_drawable/tab/tab_8.webp"
     },
     {
       "title": "백작가의 망나니가 되었다",
@@ -115,26 +115,125 @@
       "is_exclusive": true,
       "becomes_free_after_some_time": false,
       "recently_updated": false,
-      "image_url": ""
+      "image_url": "toptoon_drawable/tab/tab_9.webp"
     },
     {
-      "title": "괴물교수",
-      "author": "정진석",
-      "genre": "공포",
-      "latest_episode": 62,
-      "views": 85000,
+      "title": "심연의 하늘",
+      "author": "하늘비",
+      "genre": "판타지",
+      "latest_episode": 89,
+      "views": 120000,
       "is_new": false,
+      "is_discounted": true,
+      "is_exclusive": true,
+      "becomes_free_after_some_time": false,
+      "recently_updated": true,
+      "image_url": "toptoon_drawable/tab/tab_10.webp"
+    },
+    {
+      "title": "그녀의 101번째 남자",
+      "author": "김리아",
+      "genre": "로맨스",
+      "latest_episode": 45,
+      "views": 98000,
+      "is_new": true,
       "is_discounted": false,
       "is_exclusive": false,
       "becomes_free_after_some_time": true,
+      "recently_updated": false,
+      "image_url": "toptoon_drawable/tab/tab_11.webp"
+    },
+    {
+      "title": "우주 최강 가이드",
+      "author": "박준",
+      "genre": "SF",
+      "latest_episode": 103,
+      "views": 205000,
+      "is_new": false,
+      "is_discounted": true,
+      "is_exclusive": true,
+      "becomes_free_after_some_time": false,
       "recently_updated": true,
-      "image_url": ""
+      "image_url": "toptoon_drawable/tab/tab_12.webp"
+    },
+    {
+      "title": "끝에서 두 번째 사랑",
+      "author": "이한",
+      "genre": "드라마",
+      "latest_episode": 67,
+      "views": 150000,
+      "is_new": true,
+      "is_discounted": false,
+      "is_exclusive": false,
+      "becomes_free_after_some_time": true,
+      "recently_updated": false,
+      "image_url": "toptoon_drawable/tab/tab_13.webp"
+    },
+    {
+      "title": "악마와 계약연애",
+      "author": "최진",
+      "genre": "판타지",
+      "latest_episode": 76,
+      "views": 175000,
+      "is_new": false,
+      "is_discounted": true,
+      "is_exclusive": true,
+      "becomes_free_after_some_time": false,
+      "recently_updated": true,
+      "image_url": "toptoon_drawable/tab/tab_14.webp"
+    },
+    {
+      "title": "시간을 파는 상점",
+      "author": "류현",
+      "genre": "미스터리",
+      "latest_episode": 55,
+      "views": 90000,
+      "is_new": true,
+      "is_discounted": false,
+      "is_exclusive": false,
+      "becomes_free_after_some_time": true,
+      "recently_updated": false,
+      "image_url": "toptoon_drawable/tab/tab_15.webp"
+    },
+    {
+      "title": "불멸의 날들",
+      "author": "정민",
+      "genre": "액션",
+      "latest_episode": 120,
+      "views": 220000,
+      "is_new": false,
+      "is_discounted": true,
+      "is_exclusive": true,
+      "becomes_free_after_some_time": false,
+      "recently_updated": true,
+      "image_url": "toptoon_drawable/tab/tab_16.webp"
+    },
+    {
+      "title": "황제의 외동딸",
+      "author": "김소형",
+      "genre": "판타지",
+      "latest_episode": 82,
+      "views": 200000,
+      "is_new": true,
+      "is_discounted": false,
+      "is_exclusive": false,
+      "becomes_free_after_some_time": true,
+      "recently_updated": false,
+      "image_url": "toptoon_drawable/tab/tab_17.webp"
+    },
+    {
+      "title": "귀신과 함께하는 밤",
+      "author": "이현",
+      "genre": "공포",
+      "latest_episode": 45,
+      "views": 87000,
+      "is_new": false,
+      "is_discounted": true,
+      "is_exclusive": true,
+      "becomes_free_after_some_time": false,
+      "recently_updated": true,
+      "image_url": "toptoon_drawable/tab/tab_18.webp"
     }
-  
-
-    
-    
-    
   ], 
   "slideAdd":[
     {

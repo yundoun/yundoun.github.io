@@ -1,77 +1,5 @@
 {
-  "tab": [
-    {
-      "title": "너말고 네 동생",
-      "author": "천공수스튜디오",
-      "latest_episode": "제92화",
-      "views": "18만",
-      "is_new": true,
-      "is_discounted": false,
-      "is_exclusive": false,
-      "wait_free": false,
-      "recently_updated": true,
-      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_1.webp"
-    },
-    {
-      "title": "도깨비 사냥꾼",
-      "author": "정림이",
-      "latest_episode": "제41화 - 짐승이 날뛰어봐야 사냥꾼 밥이지",
-      "views": "1.3만",
-      "is_new": false,
-      "is_discounted": false,
-      "is_exclusive": true,
-      "wait_free": true,
-      "recently_updated": false,
-      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_2.webp"
-    },
-    {
-      "title": "어린 상사 [개정판",
-      "author": "공하굥",
-      "latest_episode": "제21화 - 그래, 헤어지자",
-      "views": "1.6만",
-      "is_new": false,
-      "is_discounted": false,
-      "is_exclusive": true,
-      "wait_free": false,
-      "recently_updated": false,
-      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_3.webp"
-    },
-    {
-      "title": "만년 후 미래에서 레벨업",
-      "author": "Changpan",
-      "latest_episode": "제65화",
-      "views": "3.3만",
-      "is_new": true,
-      "is_discounted": false,
-      "is_exclusive": false,
-      "wait_free": false,
-      "recently_updated": false,
-      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_4.webp"
-    },
-    {
-      "title": "전처와의 동거",
-      "author": "이대팔",
-      "latest_episode": "제22화 - 민감한 얘기",
-      "views": "1.1만",
-      "is_new": false,
-      "is_discounted": false,
-      "is_exclusive": true,
-      "wait_free": false,
-      "recently_updated": true,
-      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_5.webp"
-    },
-    {
-      "title": "밤이 되었습니다 안드로이드는 고개를 들어주세요",
-      "author": "홈즈",
-      "latest_episode": "제28화 - 당신에게는 실망입니다",
-      "views": "4.9만",
-      "is_new": true,
-      "is_discounted": false,
-      "is_exclusive": true,
-      "wait_free": false,
-      "recently_updated": false,
-      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_6.webp"
-    },
+  "tab_realTime": [
     {
       "title": "실연 전당포",
       "author": "김래현",
@@ -143,7 +71,85 @@
       "wait_free": true,
       "recently_updated": false,
       "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_12.webp"
+    }
+  ],
+
+  "tab_new": [
+    {
+      "title": "너말고 네 동생",
+      "author": "천공수스튜디오",
+      "latest_episode": "제92화",
+      "views": "18만",
+      "is_new": true,
+      "is_discounted": false,
+      "is_exclusive": false,
+      "wait_free": false,
+      "recently_updated": true,
+      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_1.webp"
     },
+    {
+      "title": "도깨비 사냥꾼",
+      "author": "정림이",
+      "latest_episode": "제41화 - 짐승이 날뛰어봐야 사냥꾼 밥이지",
+      "views": "1.3만",
+      "is_new": false,
+      "is_discounted": false,
+      "is_exclusive": true,
+      "wait_free": true,
+      "recently_updated": false,
+      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_2.webp"
+    },
+    {
+      "title": "어린 상사 [개정판",
+      "author": "공하굥",
+      "latest_episode": "제21화 - 그래, 헤어지자",
+      "views": "1.6만",
+      "is_new": false,
+      "is_discounted": false,
+      "is_exclusive": true,
+      "wait_free": false,
+      "recently_updated": false,
+      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_3.webp"
+    },
+    {
+      "title": "만년 후 미래에서 레벨업",
+      "author": "Changpan",
+      "latest_episode": "제65화",
+      "views": "3.3만",
+      "is_new": true,
+      "is_discounted": false,
+      "is_exclusive": false,
+      "wait_free": false,
+      "recently_updated": false,
+      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_4.webp"
+    },
+    {
+      "title": "전처와의 동거",
+      "author": "이대팔",
+      "latest_episode": "제22화 - 민감한 얘기",
+      "views": "1.1만",
+      "is_new": false,
+      "is_discounted": false,
+      "is_exclusive": true,
+      "wait_free": false,
+      "recently_updated": true,
+      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_5.webp"
+    },
+    {
+      "title": "밤이 되었습니다 안드로이드는 고개를 들어주세요",
+      "author": "홈즈",
+      "latest_episode": "제28화 - 당신에게는 실망입니다",
+      "views": "4.9만",
+      "is_new": true,
+      "is_discounted": false,
+      "is_exclusive": true,
+      "wait_free": false,
+      "recently_updated": false,
+      "image_url": "https://yundoun.github.io/toptoon_drawable/tab/tab_6.webp"
+    }
+  ],
+
+  "tab_sale": [
     {
       "title": "광속으로 레벨업",
       "author": "이한",

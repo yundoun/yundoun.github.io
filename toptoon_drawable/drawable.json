@@ -1,5 +1,5 @@
 {
-  "tab_realTime": [
+  "tabRealTime": [
     {
       "title": "실연 전당포",
       "author": "김래현",
@@ -74,7 +74,7 @@
     }
   ],
 
-  "tab_new": [
+  "tabNew": [
     {
       "title": "너말고 네 동생",
       "author": "천공수스튜디오",
@@ -149,7 +149,7 @@
     }
   ],
 
-  "tab_sale": [
+  "tabSale": [
     {
       "title": "광속으로 레벨업",
       "author": "이한",

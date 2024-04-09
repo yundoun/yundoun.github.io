@@ -224,6 +224,72 @@
     }
   ],
 
+  "waitFree": [
+    {
+      "title": "도깨비 사냥꾼",
+      "author": "정림이",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_1.webp"
+    },
+    {
+      "title": "전직법사",
+      "author": "난&산균자",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_2.webp"
+    },
+    {
+      "title": "무련전봉",
+      "author": "막묵&벽가벽",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_3.webp"
+    },
+    {
+      "title": "대표님의 삐뚤어진 사랑",
+      "author": "Hongshu",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_4.webp"
+    },
+    {
+      "title": "Retry: 다시 한번 최강 신선으로",
+      "author": "십리검신",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_5.webp"
+    },
+    {
+      "title": "악역 플레이어는 강해지고 싶다",
+      "author": "Anything",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_6.webp"
+    }
+  ],
+
+  "oneCoin": [
+    {
+      "title": "신혼무제",
+      "author": "정의선생",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_1.webp"
+    },
+    {
+      "title": "사상최강의 데릴사위",
+      "author": "임아소",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_2.webp"
+    },
+    {
+      "title": "신인왕좌",
+      "author": "Sariel",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_3.webp"
+    },
+    {
+      "title": "10만년 째 오늘을 살던 놈",
+      "author": "황천재상",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_4.webp"
+    },
+    {
+      "title": "매지컬 메이트",
+      "author": "Quick manga",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_5.webp"
+    },
+    {
+      "title": "레이디 스칼렛",
+      "author": "불고기자리",
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_6.webp"
+    }
+  ],
+
   "slideAd": [
     {
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_1.webp"

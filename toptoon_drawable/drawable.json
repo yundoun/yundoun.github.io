@@ -272,36 +272,18 @@
     }
   ],
 
-  "icon": [
+  "banner": [
     {
-      "adult": "https://yundoun.github.io/toptoon_drawable/icon/adult.png"
+      "headerAd": "https://yundoun.github.io/toptoon_drawable/banner/headerAd.jpg"
     },
     {
-      "coin": "https://yundoun.github.io/toptoon_drawable/icon/coin.png"
+      "freeAd": "https://yundoun.github.io/toptoon_drawable/banner/freeAd.jpg"
     },
     {
-      "gift": "https://yundoun.github.io/toptoon_drawable/icon/gift.png"
+      "sectionAd": "https://yundoun.github.io/toptoon_drawable/banner/sectionAd.jpg"
     },
     {
-      "hamburger": "https://yundoun.github.io/toptoon_drawable/icon/hamburger.png"
-    },
-    {
-      "iconHits": "https://yundoun.github.io/toptoon_drawable/icon/iconHits.png"
-    },
-    {
-      "iconLook": "https://yundoun.github.io/toptoon_drawable/icon/iconLook.png"
-    },
-    {
-      "imgSawEmpty": "https://yundoun.github.io/toptoon_drawable/icon/imgSawEmpty.png"
-    },
-    {
-      "logo": "https://yundoun.github.io/toptoon_drawable/icon/logo.png"
-    },
-    {
-      "myBook": "https://yundoun.github.io/toptoon_drawable/icon/myBook.png"
-    },
-    {
-      "search": "https://yundoun.github.io/toptoon_drawable/icon/search.png"
+      "footer": "https://yundoun.github.io/toptoon_drawable/banner/footer.jpg"
     }
   ]
 }

@@ -271,19 +271,8 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_7.webp"
     }
   ],
-
-  "banner": [
-    {
-      "headerAd": "https://yundoun.github.io/toptoon_drawable/banner/headerAd.jpg"
-    },
-    {
-      "freeAd": "https://yundoun.github.io/toptoon_drawable/banner/freeAd.jpg"
-    },
-    {
-      "sectionAd": "https://yundoun.github.io/toptoon_drawable/banner/sectionAd.jpg"
-    },
-    {
-      "footer": "https://yundoun.github.io/toptoon_drawable/banner/footer.jpg"
-    }
-  ]
+  "headerAd": "https://yundoun.github.io/toptoon_drawable/banner/headerAd.jpg",
+  "freeAd": "https://yundoun.github.io/toptoon_drawable/banner/freeAd.jpg",
+  "sectionAd": "https://yundoun.github.io/toptoon_drawable/banner/sectionAd.jpg",
+  "footer": "https://yundoun.github.io/toptoon_drawable/banner/footer.jpg"
 }

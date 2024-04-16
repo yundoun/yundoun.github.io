@@ -1,6 +1,7 @@
 {
-  "tabRealTime": [
+  "webtoons": [
     {
+      "id": 1,
       "title": "실연 전당포",
       "author": "김래현",
       "latestEpisode": "제61화 최종화 - 진심으로 행복하길 바랄게",
@@ -13,6 +14,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_7.webp"
     },
     {
+      "id": 2,
       "title": "앙(怏)",
       "author": "김진수",
       "latestEpisode": "제52화 최종화 - 눈 감지마",
@@ -25,6 +27,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_8.webp"
     },
     {
+      "id": 3,
       "title": "악역 플레이어는 강해지고 싶다",
       "author": "Anything",
       "latestEpisode": "제691화",
@@ -37,6 +40,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_9.webp"
     },
     {
+      "id": 4,
       "title": "레벨업에 미친 의사",
       "author": "JSCR",
       "latestEpisode": "제319화 - 세계 최강의 응급센터",
@@ -49,6 +53,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_10.webp"
     },
     {
+      "id": 5,
       "title": "무도독존",
       "author": "소요",
       "latestEpisode": "제421화",
@@ -61,6 +66,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_11.webp"
     },
     {
+      "id": 6,
       "title": "Retry: 다시 한번 최강 신선으로",
       "author": "십리검신",
       "latestEpisode": "제699화",
@@ -71,11 +77,9 @@
       "waitFree": true,
       "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_12.webp"
-    }
-  ],
-
-  "tabNew": [
+    },
     {
+      "id": 7,
       "title": "너말고 네 동생",
       "author": "천공수스튜디오",
       "latestEpisode": "제92화",
@@ -88,6 +92,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_1.webp"
     },
     {
+      "id": 8,
       "title": "도깨비 사냥꾼",
       "author": "정림이",
       "latestEpisode": "제41화 - 짐승이 날뛰어봐야 사냥꾼 밥이지",
@@ -100,6 +105,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_2.webp"
     },
     {
+      "id": 9,
       "title": "어린 상사 [개정판",
       "author": "공하굥",
       "latestEpisode": "제21화 - 그래, 헤어지자",
@@ -112,6 +118,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_3.webp"
     },
     {
+      "id": 10,
       "title": "만년 후 미래에서 레벨업",
       "author": "Changpan",
       "latestEpisode": "제65화",
@@ -124,6 +131,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_4.webp"
     },
     {
+      "id": 11,
       "title": "전처와의 동거",
       "author": "이대팔",
       "latestEpisode": "제22화 - 민감한 얘기",
@@ -136,6 +144,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_5.webp"
     },
     {
+      "id": 12,
       "title": "밤이 되었습니다 안드로이드는 고개를 들어주세요",
       "author": "홈즈",
       "latestEpisode": "제28화 - 당신에게는 실망입니다",
@@ -146,11 +155,9 @@
       "waitFree": false,
       "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_6.webp"
-    }
-  ],
-
-  "tabSale": [
+    },
     {
+      "id": 13,
       "title": "광속으로 레벨업",
       "author": "이한",
       "latestEpisode": "제106화 최종화",
@@ -163,6 +170,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_13.webp"
     },
     {
+      "id": 14,
       "title": "블러디 발렌타인:인류종말",
       "author": "최진",
       "latestEpisode": "제544화",
@@ -175,6 +183,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_14.webp"
     },
     {
+      "id": 15,
       "title": "초월진화",
       "author": "류현",
       "latestEpisode": "제141화 최종화",
@@ -187,6 +196,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_15.webp"
     },
     {
+      "id": 16,
       "title": "왕이 돌아왔도다",
       "author": "정민",
       "latestEpisode": "제277화",
@@ -199,6 +209,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_16.webp"
     },
     {
+      "id": 17,
       "title": "소르골 전기 : 천년전쟁",
       "author": "김소형",
       "latestEpisode": "제293화",
@@ -211,6 +222,7 @@
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_17.webp"
     },
     {
+      "id": 18,
       "title": "공주전쟁",
       "author": "이현",
       "latestEpisode": "제150화 최종화",
@@ -221,74 +233,109 @@
       "waitFree": false,
       "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/tab/tab_18.webp"
-    }
-  ],
-
-  "waitFree": [
-    {
-      "title": "도깨비 사냥꾼",
-      "author": "정림이",
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_1.webp"
     },
     {
+      "id": 19,
       "title": "전직법사",
       "author": "난&산균자",
+      "latestEpisode": "제904화",
+      "views": "1.3만",
+      "isNew": false,
+      "isDiscounted": true,
+      "isExclusive": false,
+      "waitFree": true,
+      "recentlyUpdated": true,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_2.webp"
     },
     {
+      "id": 20,
       "title": "무련전봉",
       "author": "막묵&벽가벽",
+      "latestEpisode": "제1191화",
+      "views": "11.9만",
+      "isNew": false,
+      "isDiscounted": true,
+      "isExclusive": false,
+      "waitFree": true,
+      "recentlyUpdated": true,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_3.webp"
     },
     {
+      "id": 21,
       "title": "대표님의 삐뚤어진 사랑",
       "author": "Hongshu",
+      "latestEpisode": "제573화",
+      "views": "5.1만",
+      "isNew": false,
+      "isDiscounted": true,
+      "isExclusive": false,
+      "waitFree": true,
+      "recentlyUpdated": true,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_4.webp"
     },
     {
-      "title": "Retry: 다시 한번 최강 신선으로",
-      "author": "십리검신",
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_5.webp"
-    },
-    {
-      "title": "악역 플레이어는 강해지고 싶다",
-      "author": "Anything",
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/wait_free/wait_free_6.webp"
-    }
-  ],
-
-  "oneCoin": [
-    {
+      "id": 22,
       "title": "신혼무제",
       "author": "정의선생",
+      "latestEpisode": "제200화",
+      "views": "5.7만",
+      "isNew": false,
+      "isDiscounted": true,
+      "isExclusive": false,
+      "waitFree": true,
+      "recentlyUpdated": true,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_1.webp"
     },
     {
+      "id": 23,
       "title": "사상최강의 데릴사위",
       "author": "임아소",
+      "latestEpisode": "제84화",
+      "views": "1.0만",
+      "isNew": false,
+      "isDiscounted": true,
+      "isExclusive": false,
+      "waitFree": true,
+      "recentlyUpdated": true,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_2.webp"
     },
     {
-      "title": "신인왕좌",
+      "id": 24,
+      "title": "신인왕좌 데릴사위",
       "author": "Sariel",
+      "latestEpisode": "제275화",
+      "views": "6.9만",
+      "isNew": false,
+      "isDiscounted": true,
+      "isExclusive": false,
+      "waitFree": true,
+      "recentlyUpdated": true,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_3.webp"
     },
     {
-      "title": "10만년 째 오늘을 살던 놈",
-      "author": "황천재상",
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_4.webp"
-    },
-    {
-      "title": "매지컬 메이트",
-      "author": "Quick manga",
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_5.webp"
-    },
-    {
+      "id": 25,
       "title": "레이디 스칼렛",
       "author": "불고기자리",
+      "latestEpisode": "제94화 최종화",
+      "views": "6.9만",
+      "isNew": false,
+      "isDiscounted": true,
+      "isExclusive": false,
+      "waitFree": false,
+      "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/common/one_coin/one_coin_6.webp"
     }
   ],
+
+  "TabRealTime": [1, 2, 3, 4, 5, 6],
+
+  "TabNew": [7, 8, 9, 10, 11, 12],
+
+  "TabSale": [13, 14, 15, 16, 17, 18],
+
+  "waitFree": [8, 19, 20, 21, 6, 3],
+
+  "oneCoin": [22, 23, 24, 25, 18, 15, 13],
 
   "slideAd": [
     {

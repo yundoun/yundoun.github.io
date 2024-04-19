@@ -349,14 +349,14 @@
   },
 
   "recommendGenre": {
-    "romance": [2, 3, 4, 5, 6, 7],
-    "drama": [8, 9, 10, 11, 12, 13],
-    "schoolAction": [3, 1, 2, 3, 4, 5, 6],
-    "omnibus": [4, 1, 2, 3, 4, 5, 6],
-    "fantasySF": [5, 1, 2, 3, 4, 5, 6],
-    "horrorThriller": [6, 1, 2, 3, 4, 5],
+    "romance": [1, 6, 7, 8, 9, 11],
+    "drama": [2, 7, 1, 9, 21, 23],
+    "schoolAction": [5, 10, 12, 15, 18, 20],
+    "omnibus": [24, 25, 22, 14, 12],
+    "fantasySF": [13, 15, 16, 17, 19, 21],
+    "horrorThriller": [23, 18, 16, 12, 11, 8],
     "comedy": [6, 5, 4, 3, 2, 1],
-    "martialArts": [9, 1, 2, 3, 4, 5]
+    "martialArts": [10, 11, 13, 14, 17, 21]
   },
 
   "slideAd": [

@@ -337,6 +337,28 @@
 
   "oneCoin": [22, 23, 24, 25, 18, 15, 13],
 
+  "customKeyword": {
+    "popularWorks": [1, 2],
+    "toptoonExclusive": [1, 2],
+    "dailyFree": [1, 2],
+    "completelyFree": [1, 2],
+    "hotNewWorks": [1, 2],
+    "remakes": [1, 2],
+    "millionViews": [1, 2],
+    "bingeWatching": [1, 2]
+  },
+
+  "recommendGenre": {
+    "romance": [1, 2],
+    "drama": [1, 2],
+    "schoolAction": [1, 2],
+    "omnibus": [1, 2],
+    "fantasySF": [1, 2],
+    "horrorThriller": [1, 2],
+    "comedy": [1, 2],
+    "martialArts": [1, 2]
+  }
+
   "slideAd": [
     {
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_1.webp"

@@ -338,14 +338,14 @@
   "oneCoin": [22, 23, 24, 25, 18, 15, 13],
 
   "customKeyword": {
-    "popularWorks": [1, 2],
-    "toptoonExclusive": [1, 2],
-    "dailyFree": [1, 2],
-    "completelyFree": [1, 2],
-    "hotNewWorks": [1, 2],
-    "remakes": [1, 2],
-    "millionViews": [1, 2],
-    "bingeWatching": [1, 2]
+    "popularWorks": [1, 2, 3, 4, 5, 6],
+    "toptoonExclusive": [6, 5, 4, 3, 2, 1],
+    "dailyFree": [3, 4, 5, 6, 7, 8],
+    "completelyFree": [11, 5, 3, 6, 3, 8],
+    "hotNewWorks": [5, 6, 23, 12, 4, 8],
+    "remakes": [2, 4, 6, 1, 3, 5],
+    "millionViews": [1, 3, 5, 2, 4, 6],
+    "bingeWatching": [4, 5, 6, 1, 2, 3]
   },
 
   "recommendGenre": {

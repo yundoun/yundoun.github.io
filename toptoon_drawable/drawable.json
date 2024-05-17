@@ -11,7 +11,8 @@
       "isExclusive": true,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_1.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_1.webp",
+      "slug": "velorn_pawnshop"
     },
     {
       "id": 2,
@@ -24,7 +25,8 @@
       "isExclusive": true,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_2.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_2.webp",
+      "slug": "ang"
     },
     {
       "id": 3,
@@ -37,7 +39,8 @@
       "isExclusive": false,
       "waitFree": true,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_3.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_3.webp",
+      "slug": "villain_player"
     },
     {
       "id": 4,
@@ -50,7 +53,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_4.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_4.webp",
+      "slug": "Yeokchunsasin"
     },
     {
       "id": 5,
@@ -63,7 +67,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_5.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_5.webp",
+      "slug": "Mango_sword"
     },
     {
       "id": 6,
@@ -76,7 +81,8 @@
       "isExclusive": false,
       "waitFree": true,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_6.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_6.webp",
+      "slug": "Sagak_romance"
     },
     {
       "id": 7,
@@ -89,7 +95,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_7.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_7.webp",
+      "slug": "Not_you_your_brother"
     },
     {
       "id": 8,
@@ -97,12 +104,13 @@
       "author": "비어있음",
       "latestEpisode": "제47화 최종화",
       "views": "1.3만",
-      "isNew": false,
+      "isNew": true,
       "isDiscounted": false,
       "isExclusive": true,
       "waitFree": true,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_8.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_8.webp",
+      "slug": "They_dumped_me"
     },
     {
       "id": 9,
@@ -110,12 +118,13 @@
       "author": "공하굥",
       "latestEpisode": "제21화 - 그래, 헤어지자",
       "views": "1.6만",
-      "isNew": false,
+      "isNew": true,
       "isDiscounted": false,
       "isExclusive": true,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_9.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_9.webp",
+      "slug": "young_boss_na"
     },
     {
       "id": 10,
@@ -128,7 +137,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_10.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_10.webp",
+      "slug": "Level_up_after_10000years"
     },
     {
       "id": 11,
@@ -136,7 +146,7 @@
       "author": "이대팔",
       "latestEpisode": "제22화 - 민감한 얘기",
       "views": "1.1만",
-      "isNew": false,
+      "isNew": true,
       "isDiscounted": false,
       "isExclusive": true,
       "waitFree": false,
@@ -154,7 +164,8 @@
       "isExclusive": true,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_12.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_12.webp",
+      "slug": "ex_wife_na"
     },
     {
       "id": 13,
@@ -167,7 +178,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_13.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_13.webp",
+      "slug": "My_sister_friends_na"
     },
     {
       "id": 14,
@@ -180,7 +192,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_14.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_14.webp",
+      "slug": "lol"
     },
     {
       "id": 15,
@@ -193,7 +206,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_15.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_15.webp",
+      "slug": "Retry:_Once_again_with_the_best_freshness"
     },
     {
       "id": 16,
@@ -206,7 +220,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_16.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_16.webp",
+      "slug": "dokkaebi_hunter"
     },
     {
       "id": 17,
@@ -219,7 +234,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_17.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_17.webp",
+      "slug": "contract_wife"
     },
     {
       "id": 18,
@@ -232,7 +248,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_18.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_18.webp",
+      "slug": "authority"
     },
     {
       "id": 19,
@@ -245,7 +262,8 @@
       "isExclusive": false,
       "waitFree": true,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_19.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_19.webp",
+      "slug": "a_former_jurist"
     },
     {
       "id": 20,
@@ -258,7 +276,8 @@
       "isExclusive": false,
       "waitFree": true,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_20.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_20.webp",
+      "slug": "an_open_salary"
     },
     {
       "id": 21,
@@ -271,7 +290,8 @@
       "isExclusive": false,
       "waitFree": true,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_21.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_21.webp",
+      "slug": "Twisted_love"
     },
     {
       "id": 22,
@@ -284,7 +304,8 @@
       "isExclusive": false,
       "waitFree": true,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_22.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_22.webp",
+      "slug": "Brain_Breaker"
     },
     {
       "id": 23,
@@ -297,7 +318,8 @@
       "isExclusive": false,
       "waitFree": true,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_23.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_23.webp",
+      "slug": "TodayDinner_na"
     },
     {
       "id": 24,
@@ -310,7 +332,8 @@
       "isExclusive": false,
       "waitFree": true,
       "recentlyUpdated": true,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_24.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_24.webp",
+      "slug": "copyright"
     },
     {
       "id": 25,
@@ -323,7 +346,8 @@
       "isExclusive": false,
       "waitFree": false,
       "recentlyUpdated": false,
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_25.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_25.webp",
+      "slug": "heekey"
     }
   ],
 

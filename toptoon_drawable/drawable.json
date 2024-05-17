@@ -435,25 +435,32 @@
 
   "event": [
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_1.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_1.webp",
+      "linkUrl": "https://toptoon.com/event/attendance"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_2.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_2.webp",
+      "linkUrl": "https://toptoon.com/event/freetoon#event1"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_3.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_3.webp",
+      "linkUrl": "https://toptoon.com/event/freetoon#event1"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_4.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_4.webp",
+      "linkUrl": "https://m.smartstore.naver.com/toptoonshop"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_5.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_5.webp",
+      "linkUrl": "https://toptoon.com/event/kakaoFriend"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_6.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_6.webp",
+      "linkUrl": "https://toptoon.com/payment/freeCharge"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_7.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/event/event_add_7.webp",
+      "linkUrl": "https://toptoon.com/app/download"
     }
   ],
   "headerAd": "https://yundoun.github.io/toptoon_drawable/banner/headerAd.png",

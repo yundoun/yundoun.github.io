@@ -404,25 +404,32 @@
 
   "slideAd": [
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_1.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_1.webp",
+      "linkUrl": "https://toptoon.com/comic/ep_list/velorn_pawnshop"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_2.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_2.webp",
+      "linkUrl": "https://toptoon.com/event/attendance"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_3.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_3.webp",
+      "linkUrl": "https://toptoon.com/comic/ep_list/TodayDinner_na"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_4.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_4.webp",
+      "linkUrl": "https://toptoon.com/comic/ep_list/They_dumped_me"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_5.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_5.webp",
+      "linkUrl": "https://toptoon.com/comic/ep_list/Zen_mastery"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_6.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_6.webp",
+      "linkUrl": "https://toptoon.com/comic/ep_list/likability_goes_up"
     },
     {
-      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_7.webp"
+      "imageUrl": "https://yundoun.github.io/toptoon_drawable/slide_add/slide_add_7.webp",
+      "linkUrl": "https://toptoon.com/comic/ep_list/Bluffing"
     }
   ],
 

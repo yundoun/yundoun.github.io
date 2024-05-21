@@ -24,7 +24,7 @@
       "isDiscounted": false,
       "isExclusive": true,
       "waitFree": false,
-      "recentlyUpdated": true,
+      "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_2.webp",
       "slug": "ang"
     },
@@ -66,7 +66,7 @@
       "isDiscounted": false,
       "isExclusive": false,
       "waitFree": false,
-      "recentlyUpdated": true,
+      "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_5.webp",
       "slug": "Mango_sword"
     },
@@ -80,7 +80,7 @@
       "isDiscounted": false,
       "isExclusive": false,
       "waitFree": true,
-      "recentlyUpdated": true,
+      "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_6.webp",
       "slug": "Sagak_romance"
     },
@@ -122,7 +122,7 @@
       "isDiscounted": false,
       "isExclusive": true,
       "waitFree": false,
-      "recentlyUpdated": true,
+      "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_9.webp",
       "slug": "young_boss_na"
     },
@@ -178,7 +178,7 @@
       "isDiscounted": true,
       "isExclusive": false,
       "waitFree": false,
-      "recentlyUpdated": true,
+      "recentlyUpdated": false,
       "imageUrl": "https://yundoun.github.io/toptoon_drawable/webtoon/id_13.webp",
       "slug": "My_sister_friends_na"
     },

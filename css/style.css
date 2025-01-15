@@ -1,9 +1,9 @@
-@import './base/_normalize.css';
-@import './base/_variables.css';
-@import './base/_base.css';
+@import '/css/base/normalize.css';
+@import '/css/base/variables.css';
+@import '/css/base/base.css';
 
-@import './components/_header.css';
-@import './components/_footer.css';
+@import '/css/components/header.css';
+@import '/css/components/footer.css';
 
-@import './pages/_home.css';
-@import './pages/_about.css';
+@import '/css/pages/home.css';
+@import '/css/pages/about.css';

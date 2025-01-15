@@ -1,0 +1,9 @@
+@import './base/_normalize.css';
+@import './base/_variables.css';
+@import './base/_base.css';
+
+@import './components/_header.css';
+@import './components/_footer.css';
+
+@import './pages/_home.css';
+@import './pages/_about.css';

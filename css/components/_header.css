@@ -1,0 +1,78 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: var(--transition-base);
+}
+
+/* 초기 상태의 헤더 (스크롤 최상단) */
+.header-transparent {
+  background: transparent;
+  box-shadow: none;
+}
+
+/* 스크롤 시 보이는 헤더 */
+.header-visible {
+  background: var(--color-header-bg);
+  backdrop-filter: blur(var(--blur-header));
+  -webkit-backdrop-filter: blur(var(--blur-header));
+  box-shadow: var(--shadow-header);
+  border-bottom: 1px solid var(--color-header-border);
+}
+
+.nav-menu a:hover {
+  color: var(--color-nav-hover);
+  text-shadow: var(--glow-effect);
+}
+
+/* 로고 스타일 - 항상 밝은 색상 유지 */
+.logo img {
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+}
+
+/* 스크롤 시에도 밝은 색상 유지 */
+.header-transparent .nav-menu a,
+.header-visible .nav-menu a {
+  color: var(--color-nav-text);
+}
+
+/* Navigation Container */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--space-sm) var(--space-md);
+}
+
+/* Logo */
+.logo {
+  font-size: var(--font-md);
+  font-weight: 700;
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: var(--transition-base);
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  gap: var(--space-md);
+  list-style: none;
+}
+
+.nav-menu a {
+  color: var(--color-secondary);
+  font-weight: 500;
+  text-decoration: none;
+  padding: var(--space-xs) var(--space-sm);
+  transition: var(--transition-base);
+  border-radius: var(--radius-sm);
+}
+
+.nav-menu a:hover {
+  color: var(--color-primary);
+}

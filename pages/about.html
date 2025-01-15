@@ -7,7 +7,9 @@
 
     <meta name="description" content="파인원커뮤니케이션즈 홈페이지 만들기" />
     <meta name="author" content="YunDoUn" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
 
     <!-- user-scalable 을 사용하지 않는 디바이스를 위해, maximun-scale/minimum-scale 설정을 하는 것입니다-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -33,17 +35,43 @@
     <header class="header">
       <nav class="nav-container">
         <div class="logo">
-          <img
-            src="../assets/images/pineone-logo.png"
-            alt="Device Software Solution" />
+          <a href="../index.html" aria-label="Go to Home">
+            <img
+              src="../assets/images/pineone-logo.png"
+              alt="Device Software Solution" />
+          </a>
         </div>
+        <!-- 햄버거 버튼 추가 -->
+        <button type="button" class="mobile-menu-button" aria-label="Menu">
+          <span class="menu-icon"></span>
+        </button>
+
+        <!-- 데스크톱 네비게이션 -->
         <ul class="nav-menu">
           <li><a href="../index.html">Home</a></li>
           <li><a href="./about.html">About</a></li>
-          <li><a href="./about.html">Services</a></li>
-          <li><a href="./about.html">Contact</a></li>
         </ul>
       </nav>
+
+      <!-- 모바일 메뉴 오버레이 -->
+      <div class="mobile-menu-overlay"></div>
+
+      <!-- 모바일 네비게이션 -->
+      <div class="mobile-menu">
+        <div class="mobile-menu-header">
+          <span class="mobile-menu-title">MENU</span>
+          <button
+            type="button"
+            class="mobile-menu-close"
+            aria-label="Close menu">
+            <span class="close-icon"></span>
+          </button>
+        </div>
+        <ul class="mobile-nav-menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -365,7 +393,34 @@
 
     <footer class="footer">
       <div class="footer-content">
-        <p>&copy; 2024 PINEONE Communications. All rights reserved.</p>
+        <div class="footer-info">
+          <div class="footer-logo">
+            <img src="../assets/images/pineone-logo.png" alt="PINEONE" />
+          </div>
+          <div class="footer-links">
+            <div class="footer-nav">
+              <h4>Navigation</h4>
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+              </ul>
+            </div>
+            <div class="footer-contact">
+              <h4>Contact</h4>
+              <ul>
+                <li>서울 금천구 디지털9길 99</li>
+                <li>스타밸리 812호</li>
+                <li>
+                  <a href="mailto:sales@pineone.com">sales@pineone.com</a>
+                </li>
+                <li><a href="tel:02-569-1994">02-569-1994</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 PINEONE Communications. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   </body>

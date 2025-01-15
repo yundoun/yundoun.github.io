@@ -35,7 +35,7 @@
   --color-header-bg: rgba(18, 26, 38, 0.4);
   --color-header-border: rgba(255, 255, 255, 0.1);
   --color-nav-text: rgba(255, 255, 255, 0.9);
-  --color-nav-hover: #64ffda;
+  --color-nav-hover: #3498db;
 
   /* New Effects */
   --shadow-header: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -68,29 +68,39 @@
   --radius-md: 10px;
 
   /* Breakpoints */
+  --breakpoint-mobile: 375px;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-}
 
-/* 밝은 테마용 변수 (about 페이지용) */
-.light-theme {
-  --color-header-bg: rgba(255, 255, 255, 0.4);
-  --color-header-border: rgba(0, 0, 0, 0.1);
-  --color-nav-text: rgba(0, 0, 0, 0.9);
-  --color-nav-hover: #3498db;
-}
+  /* 모바일 메뉴 관련 변수 추가 */
+  --mobile-menu-width: 320px;
+  --mobile-menu-height: 100vh;
+  --mobile-header-height: 60px;
+  --mobile-menu-timing: 0.3s;
+  --mobile-menu-bg: #ffffff;
+  --mobile-overlay-bg: rgba(0, 0, 0, 0.5);
 
-/* 밝은 테마일 때는 원래 filter를 제거하고 어두운색으로 변경 */
-.light-theme .logo img {
-  filter: brightness(0);
-  /* 검정색으로 변경 */
-  opacity: 0.9;
-}
+  /* 밝은 테마용 변수 (about 페이지용) */
+  .light-theme {
+    --color-header-bg: rgba(255, 255, 255, 0.4);
+    --color-header-border: rgba(0, 0, 0, 0.1);
+    --color-nav-text: rgba(0, 0, 0, 0.9);
+    --color-nav-hover: #3498db;
+  }
 
-/* 밝은 테마일 때 네비게이션 글로우 효과 수정 */
-.light-theme .nav-menu a:hover {
-  text-shadow: var(--glow-effect);
-  color: var(--color-nav-hover);
+  /* 밝은 테마일 때는 원래 filter를 제거하고 어두운색으로 변경 */
+  .light-theme .logo img {
+    filter: brightness(0);
+    /* 검정색으로 변경 */
+    opacity: 0.9;
+  }
+
+  /* 밝은 테마일 때 네비게이션 글로우 효과 수정 */
+  .light-theme .nav-menu a:hover {
+    text-shadow: var(--glow-effect);
+    color: var(--color-nav-hover);
+  }
+
 }

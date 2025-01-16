@@ -7,10 +7,11 @@
   transition: var(--transition-base);
 }
 
-/* 기존 투명/블러 효과 유지 */
 .header-transparent {
   background: transparent;
   box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 .header-visible {
@@ -64,7 +65,7 @@
   text-shadow: var(--glow-effect);
 }
 
-/* 모바일 메뉴 신규 추가 */
+/* ------ 모바일 메뉴 ------- */
 .mobile-menu-button {
   display: none;
   background: none;
@@ -106,6 +107,17 @@
 }
 
 /* drawer가 열렸을 때 헤더 관련 스타일 수정 */
+
+.header.menu-open {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none;
+  border-bottom: none;
+  transition: none;
+  /* 헤더 상태 변경 시 transition 제거 */
+}
+
 .header.menu-open .nav-container {
   opacity: 0;
   visibility: hidden;
@@ -139,7 +151,8 @@
 
 /* 모바일 메뉴 오버레이 & 컨테이너 */
 .mobile-menu-overlay {
-  display: none;
+  display: block;
+  /* none 대신 block으로 변경 */
   position: fixed;
   top: 0;
   left: 0;
@@ -147,12 +160,14 @@
   height: 100%;
   background: var(--mobile-overlay-bg);
   opacity: 0;
-  transition: opacity var(--mobile-menu-timing);
+  visibility: hidden;
+  transition: opacity var(--mobile-menu-timing), visibility var(--mobile-menu-timing);
   z-index: 1001;
 }
 
 .mobile-menu {
-  display: none;
+  display: block;
+  /* none 대신 block으로 변경 */
   position: fixed;
   top: 0;
   right: -100%;
@@ -160,7 +175,8 @@
   height: 100vh;
   background: var(--mobile-menu-bg);
   padding: var(--space-md);
-  transition: right var(--mobile-menu-timing);
+  visibility: hidden;
+  transition: right var(--mobile-menu-timing), visibility var(--mobile-menu-timing);
   z-index: 1002;
 }
 
@@ -232,14 +248,15 @@
   padding: var(--space-xs) 0;
 }
 
-/* 활성화 상태 클래스 */
+/* 모바일 메뉴가 활성화된 상태 */
 .mobile-menu.active {
   right: 0;
+  visibility: visible;
 }
 
 .mobile-menu-overlay.active {
-  display: block;
   opacity: 1;
+  visibility: visible;
 }
 
 /* 반응형 스타일 */
@@ -252,15 +269,22 @@
     display: block;
   }
 
-  .mobile-menu {
-    display: block;
-  }
-
   .nav-container {
     padding: var(--space-xs) var(--space-sm);
   }
 
   .logo img {
     height: 24px;
+  }
+}
+
+/* 375px 이하 화면에서의 모바일 메뉴 조정 */
+@media (max-width: 375px) {
+  .mobile-menu {
+    width: var(--mobile-menu-small-width);
+  }
+
+  .mobile-nav-menu a {
+    font-size: var(--mobile-font-base);
   }
 }

@@ -82,6 +82,31 @@
   --mobile-menu-bg: #ffffff;
   --mobile-overlay-bg: rgba(0, 0, 0, 0.5);
 
+  /* 375px 이하 화면용 변수 추가 */
+  --mobile-menu-small-width: 200px;
+
+  /* 모바일 메뉴 활성화 상태의 폰트 크기 */
+  --mobile-font-xl: 2rem;
+  /* 32px */
+  --mobile-font-lg: 1.75rem;
+  /* 28px */
+  --mobile-font-md: 1.25rem;
+  /* 20px */
+  --mobile-font-base: 0.875rem;
+  /* 14px */
+  --mobile-font-sm: 0.75rem;
+  /* 12px */
+
+  /* 모바일 메뉴 활성화 상태의 여백 */
+  --mobile-space-xs: 0.25rem;
+  /* 4px */
+  --mobile-space-sm: 0.5rem;
+  /* 8px */
+  --mobile-space-md: 1rem;
+  /* 16px */
+  --mobile-space-lg: 2rem;
+  /* 32px */
+
   /* 밝은 테마용 변수 (about 페이지용) */
   .light-theme {
     --color-header-bg: rgba(255, 255, 255, 0.4);

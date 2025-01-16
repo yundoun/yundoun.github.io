@@ -48,6 +48,55 @@
   flex: 1;
 }
 
+/* 태블릿 크기  */
+@media (max-width: 991px) {
+  .intro-content {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .intro-text h1 {
+    font-size: calc(var(--font-lg) * 0.85);
+  }
+
+  .intro-text p {
+    font-size: calc(var(--font-base) * 0.9);
+  }
+}
+
+/* 모바일 크기 (576px ~ 767px) */
+@media (max-width: 767px) {
+  .intro-section {
+    padding: var(--space-lg) var(--space-sm);
+  }
+
+  .intro-text h1 {
+    font-size: calc(var(--font-lg) * 0.7);
+    margin-bottom: var(--space-sm);
+  }
+
+  .intro-text p {
+    font-size: calc(var(--font-base) * 0.8);
+  }
+}
+
+/* 작은 모바일 크기 */
+@media (max-width: 375px) {
+  .intro-section {
+    padding: var(--space-md) var(--space-sm);
+  }
+
+  .intro-text h1 {
+    font-size: calc(var(--font-lg) * 0.5);
+  }
+
+  .intro-text p {
+    font-size: var(--font-sm);
+  }
+}
+
+
+
 /* ---- History Section ------*/
 .history-section {
   padding: var(--space-xl) 0;
@@ -164,7 +213,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
 
   .timeline-item,
   .timeline-item.right {
@@ -420,7 +469,10 @@
   gap: var(--space-xl);
   justify-content: center;
   align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
 }
+
 
 .clients-grid .logo-item:last-child {
   grid-column: 1 / -1;
@@ -450,19 +502,45 @@
   opacity: 1;
 }
 
-/* Tablet (768px) */
-@media (max-width: 768px) {
+
+@media (max-width: 991px) {
   .cooperation-section {
     padding: var(--space-lg) 0;
   }
 
-  .categories-group {
-    grid-template-columns: 1fr;
+  .section-subtitle {
+    font-size: calc(var(--font-sm) * 0.9);
+  }
+
+  .section-header h2 {
+    font-size: calc(var(--font-xl) * 0.85);
+  }
+
+  .card-header h3 {
+    font-size: calc(var(--font-md) * 0.9);
+  }
+
+
+  .card-header p {
+    font-size: calc(var(--font-sm) * 0.9);
   }
 
   .clients-grid {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-lg);
+    justify-items: center;
+  }
+
+  /* 마지막 아이템 중앙 정렬 */
+  .clients-grid .logo-item:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .categories-group {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
   }
 
   .partners-grid,
@@ -478,9 +556,27 @@
     padding: var(--space-md) 0;
   }
 
+  .section-subtitle {
+    font-size: calc(var(--font-sm) * 0.8);
+    letter-spacing: 1px;
+  }
+
+  .section-header h2 {
+    font-size: calc(var(--font-xl) * 0.5);
+  }
+
+  .card-header h3 {
+    font-size: calc(var(--font-md) * 0.7);
+  }
+
+  .card-header p {
+    font-size: var(--font-sm);
+  }
+
   .category-card {
     padding: var(--space-md);
   }
+
 
   .card-header {
     margin-bottom: var(--space-md);

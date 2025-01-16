@@ -86,8 +86,8 @@
   }
 }
 
-/* 작은 모바일 크기 (375px ~ 575px) */
-@media (max-width: 575px) {
+/* 작은 모바일 크기 */
+@media (max-width: 375px) {
   .hero-content h1 {
     font-size: calc(var(--font-xl) * 0.5);
     /* 24px */
@@ -359,8 +359,8 @@
   }
 }
 
-/* 작은 모바일 크기 (375px ~ 575px) */
-@media (max-width: 575px) {
+/* 작은 모바일 크기 */
+@media (max-width: 375px) {
   .services-section h2 {
     font-size: var(--font-md);
     /* 제목 크기 축소 */

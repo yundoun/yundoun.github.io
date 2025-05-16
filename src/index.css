@@ -1,0 +1,82 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Pretendard, system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-gray-100 min-h-screen flex justify-center items-center;
+  }
+}
+
+@layer components {
+
+  /* 컴포넌트별 클래스 재사용을 위한 정의 */
+  .mobile-container {
+    @apply mx-auto bg-white shadow-lg;
+    width: 360px;
+    height: 100vh;
+    max-height: 800px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .safe-area {
+    @apply max-w-[400px] mx-auto;
+  }
+
+  .card {
+    @apply rounded-md shadow-card bg-background-primary p-m;
+  }
+
+  .tag {
+    @apply inline-block py-1.5 px-2.5 rounded-full text-xs bg-gray-100 text-brand-primary font-medium;
+  }
+
+  .fab {
+    @apply w-12 h-12 rounded-full bg-[#3B4044] shadow-lg flex items-center justify-center text-white absolute bottom-20 right-5 z-10;
+  }
+
+  .button-primary {
+    @apply h-button rounded-md px-5 bg-brand-primary text-white font-semibold text-base flex items-center justify-center transition-colors;
+  }
+
+  .button-neutral {
+    @apply h-button rounded-md px-5 bg-background-primary text-text-secondary border border-border-primary font-semibold text-base flex items-center justify-center transition-colors;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+  }
+
+  /* 바텀 네비게이션 안전 영역 */
+  .pb-safe {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 1rem);
+  }
+}
+
+@layer utilities {
+  .bg-background-primary {
+    background-color: #FFFFFF;
+  }
+
+  .text-brand-primary {
+    color: #E6007E;
+  }
+
+  .bg-brand-primary {
+    background-color: #E6007E;
+  }
+}

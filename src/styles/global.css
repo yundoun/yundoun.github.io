@@ -1,0 +1,186 @@
+:root {
+  /* Screen Sizes */
+  --screen-min-width: 320px;
+  --screen-compact-width: 360px;
+
+  /* Margins & Paddings */
+  --side-margin: 20px;
+  --content-spacing: 16px;
+  --card-padding: 16px;
+  --section-vertical-spacing: 24px;
+
+  /* Component Spacing */
+  --spacing-unit: 8px;
+  --spacing-xs: var(--spacing-unit);
+  /* 8px */
+  --spacing-s: calc(var(--spacing-unit) * 1.5);
+  /* 12px */
+  --spacing-m: calc(var(--spacing-unit) * 2);
+  /* 16px */
+  --spacing-l: calc(var(--spacing-unit) * 3);
+  /* 24px */
+
+  /* Card Styles */
+  --card-border-radius: 12px;
+  --card-shadow: 3px 6px 28px rgba(0, 0, 0, 0.08);
+
+  /* Tag Styles */
+  --tag-border-radius: 999px;
+  --tag-padding-horizontal: 10px;
+  --tag-padding-vertical: 6px;
+  --tag-font-size: 12px;
+  /* 추정치 */
+
+  /* FAB Styles */
+  --fab-border-radius: 999px;
+  --fab-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+  --fab-background-color: #E6007E;
+  /* 브랜드 컬러 */
+
+  /* Colors - 예시 */
+  --primary-text-color: #333;
+  --secondary-text-color: #666;
+  --background-color: #fff;
+  --border-color: #eee;
+}
+
+/* Basic Reset & Body Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* 시스템 기본 폰트 사용 예시 */
+  line-height: 1.6;
+  color: var(--primary-text-color);
+  background-color: #f5f5f5;
+  /* 페이지 배경색 변경 */
+  min-width: var(--screen-min-width);
+  display: flex;
+  justify-content: center;
+}
+
+/* Layout */
+.safe-area {
+  padding-left: var(--side-margin);
+  padding-right: var(--side-margin);
+  max-width: calc(var(--screen-compact-width) + (2 * var(--side-margin)));
+  /* Compact 기준 + 양쪽 여백 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Utility Classes for Spacing (예시) */
+.mt-xs {
+  margin-top: var(--spacing-xs);
+}
+
+.mt-s {
+  margin-top: var(--spacing-s);
+}
+
+.mt-m {
+  margin-top: var(--spacing-m);
+}
+
+.mt-l {
+  margin-top: var(--spacing-l);
+}
+
+.mb-xs {
+  margin-bottom: var(--spacing-xs);
+}
+
+.mb-s {
+  margin-bottom: var(--spacing-s);
+}
+
+.mb-m {
+  margin-bottom: var(--spacing-m);
+}
+
+.mb-l {
+  margin-bottom: var(--spacing-l);
+}
+
+.pt-xs {
+  padding-top: var(--spacing-xs);
+}
+
+.pt-s {
+  padding-top: var(--spacing-s);
+}
+
+.pt-m {
+  padding-top: var(--spacing-m);
+}
+
+.pt-l {
+  padding-top: var(--spacing-l);
+}
+
+.pb-xs {
+  padding-bottom: var(--spacing-xs);
+}
+
+.pb-s {
+  padding-bottom: var(--spacing-s);
+}
+
+.pb-m {
+  padding-bottom: var(--spacing-m);
+}
+
+.pb-l {
+  padding-bottom: var(--spacing-l);
+}
+
+/* Component Base Styles - 추후 각 컴포넌트 파일에서 확장 */
+.card {
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--card-shadow);
+  background-color: var(--background-color);
+  padding: var(--card-padding);
+}
+
+.tag {
+  display: inline-block;
+  padding: var(--tag-padding-vertical) var(--tag-padding-horizontal);
+  border-radius: var(--tag-border-radius);
+  font-size: var(--tag-font-size);
+  /* 태그 배경색, 글자색 등은 구체적인 디자인에 따라 추가 */
+}
+
+.fab {
+  width: 56px;
+  /* 일반적인 FAB 크기 예시 */
+  height: 56px;
+  /* 일반적인 FAB 크기 예시 */
+  border-radius: var(--fab-border-radius);
+  background-color: var(--fab-background-color);
+  box-shadow: var(--fab-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* 아이콘 색상 예시 */
+  position: absolute;
+  bottom: var(--spacing-l);
+  right: var(--spacing-l);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+/* 모바일 화면 컨테이너 - 웹 페이지 중앙에 고정 */
+.mobile-container {
+  width: var(--screen-compact-width);
+  min-height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  background-color: var(--background-color);
+  overflow-x: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

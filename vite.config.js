@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  base: '/yundoun.github.io/', // 슬래시 포함! 예: '/my-vite-app/'
+  plugins: [react()]
 })
